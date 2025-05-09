@@ -4,7 +4,7 @@
 const productsList = document.getElementById("items");
 
 /* Sending HTTP request to the API with fetch() */
-fetch("http://localhost:3000/api/products")
+fetch("http://localhost:3001/api/products")
   /* If the request is successfull, returning the response in a JSON format */
   .then((response) => response.json())
   /* Defining API response as products and setting action to be executed */

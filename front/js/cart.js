@@ -25,7 +25,7 @@ for (let product of cart) {
   let productQuantity = product.quantity;
   let productName = product.name;
   /* Sending HTTP request to the API with fetch() to get the product details */
-  fetch(`http://localhost:3000/api/products/${productId}`)
+  fetch(`http://localhost:3001/api/products/${productId}`)
     /* Returning the response in a JSON format */
     .then((response) => response.json())
     /* Defining API response as productDetails and setting action to be executed for each product of the cart */
@@ -218,7 +218,7 @@ form.addEventListener("submit", (event) => {
     email: form.email.value,
   };
   /* Sending the contact object and the products array to the API */
-  fetch("http://localhost:3000/api/products/order", {
+  fetch("http://localhost:3001/api/products/order", {
     method: "POST",
     headers: {
       "Accept": "application/json",

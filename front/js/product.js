@@ -15,7 +15,7 @@ let productId = params.get("id");
 console.log(`Récupération de l'id du produit ayant enregistré le clic sur la page d'accueil : ${productId}`);
 
 /* Sending HTTP request to the API with fetch() */
-fetch(`http://localhost:3000/api/products/${productId}`)
+fetch(`http://localhost:3001/api/products/${productId}`)
   /* If the request is successfull */
   /* Returning the response in a JSON format */
   .then((response) => response.json())
