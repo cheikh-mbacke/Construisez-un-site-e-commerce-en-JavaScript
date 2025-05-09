@@ -1,7 +1,7 @@
 
 # 📦 Construction d'un site e-commerce en JavaScript
 
-![logo kanap](https://github.com/cheikh-mbacke/Construisez-un-site-e-commerce-en-JavaScript/front/images/overview.png)
+![logo kanap](https://github.com/cheikh-mbacke/Construisez-un-site-e-commerce-en-JavaScript/blob/main/front/images/overview.png)
 
 ## 📋 PRÉREQUIS TECHNIQUES
 
